@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "accessible-accordion-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accessibleAccordion/AccessibleAccordionWebPart.js",
+          "manifest": "./src/webparts/accessibleAccordion/AccessibleAccordionWebPart.manifest.json"
+        }
+      ]
+    },
+    "a-atest-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aAtest/AAtestWebPart.js",
+          "manifest": "./src/webparts/aAtest/AAtestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "AccessibleAccordionWebPartStrings": "lib/webparts/accessibleAccordion/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "AAtestWebPartStrings": "lib/webparts/aAtest/loc/{locale}.js"
+  }
+}

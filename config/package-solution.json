@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pn-p-controls-lab-client-side-solution",
+    "id": "0ab7280d-9cec-44a6-bb42-d88985f14bf2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PnPControlsLab description"
+      },
+      "longDescription": {
+        "default": "PnPControlsLab description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pn-p-controls-lab Feature",
+        "description": "The feature that activates elements of the pn-p-controls-lab solution.",
+        "id": "9b3c2260-de82-4a7f-bd4a-8dcf8e1e9443",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pn-p-controls-lab.sppkg"
+  }
+}
