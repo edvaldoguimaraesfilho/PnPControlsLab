@@ -25,6 +25,182 @@
           "manifest": "./src/webparts/aAtest/AAtestWebPart.manifest.json"
         }
       ]
+    },
+    "accordion-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accordion/AccordionWebPart.js",
+          "manifest": "./src/webparts/accordion/AccordionWebPart.manifest.json"
+        }
+      ]
+    },
+    "w-eb-part-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wEbPartTest/WEbPartTestWebPart.js",
+          "manifest": "./src/webparts/wEbPartTest/WEbPartTestWebPart.manifest.json"
+        }
+      ]
+    },
+    "accordion-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accordionDemo/AccordionDemoWebPart.js",
+          "manifest": "./src/webparts/accordionDemo/AccordionDemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "adaptive-card-host-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/adaptiveCardHostDemo/AdaptiveCardHostDemoWebPart.js",
+          "manifest": "./src/webparts/adaptiveCardHostDemo/AdaptiveCardHostDemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "dashboard-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dashboardDemo/DashboardDemoWebPart.js",
+          "manifest": "./src/webparts/dashboardDemo/DashboardDemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "carousel-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carouselDemo/CarouselDemoWebPart.js",
+          "manifest": "./src/webparts/carouselDemo/CarouselDemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "animated-dialog-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/animatedDialog/AnimatedDialogWebPart.js",
+          "manifest": "./src/webparts/animatedDialog/AnimatedDialogWebPart.manifest.json"
+        }
+      ]
+    },
+    "chart-control-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/chartControlDemo/ChartControlDemoWebPart.js",
+          "manifest": "./src/webparts/chartControlDemo/ChartControlDemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "chart-control-demo-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/chartControlDemoWp/ChartControlDemoWpWebPart.js",
+          "manifest": "./src/webparts/chartControlDemoWp/ChartControlDemoWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "dash-board-corrigido-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dashBoardCorrigido/DashBoardCorrigidoWebPart.js",
+          "manifest": "./src/webparts/dashBoardCorrigido/DashBoardCorrigidoWebPart.manifest.json"
+        }
+      ]
+    },
+    "drag-drop-files-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dragDropFilesDemo/DragDropFilesDemoWebPart.js",
+          "manifest": "./src/webparts/dragDropFilesDemo/DragDropFilesDemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "date-time-picker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dateTimePicker/DateTimePickerWebPart.js",
+          "manifest": "./src/webparts/dateTimePicker/DateTimePickerWebPart.manifest.json"
+        }
+      ]
+    },
+    "dynamic-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dynamicForm/DynamicFormWebPart.js",
+          "manifest": "./src/webparts/dynamicForm/DynamicFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "enhanced-theme-provider-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/enhancedThemeProvider/EnhancedThemeProviderWebPart.js",
+          "manifest": "./src/webparts/enhancedThemeProvider/EnhancedThemeProviderWebPart.manifest.json"
+        }
+      ]
+    },
+    "field-collection-data-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fieldCollectionData/FieldCollectionDataWebPart.js",
+          "manifest": "./src/webparts/fieldCollectionData/FieldCollectionDataWebPart.manifest.json"
+        }
+      ]
+    },
+    "field-picker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fieldPicker/FieldPickerWebPart.js",
+          "manifest": "./src/webparts/fieldPicker/FieldPickerWebPart.manifest.json"
+        }
+      ]
+    },
+    "file-picker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/filePicker/FilePickerWebPart.js",
+          "manifest": "./src/webparts/filePicker/FilePickerWebPart.manifest.json"
+        }
+      ]
+    },
+    "file-type-icon-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fileTypeIcon/FileTypeIconWebPart.js",
+          "manifest": "./src/webparts/fileTypeIcon/FileTypeIconWebPart.manifest.json"
+        }
+      ]
+    },
+    "file-type-icon-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fileTypeIconWp/FileTypeIconWpWebPart.js",
+          "manifest": "./src/webparts/fileTypeIconWp/FileTypeIconWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "filter-bar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/filterBar/FilterBarWebPart.js",
+          "manifest": "./src/webparts/filterBar/FilterBarWebPart.manifest.json"
+        }
+      ]
+    },
+    "folder-explorer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/folderExplorer/FolderExplorerWebPart.js",
+          "manifest": "./src/webparts/folderExplorer/FolderExplorerWebPart.manifest.json"
+        }
+      ]
+    },
+    "folder-explorer-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/folderExplorerWp/FolderExplorerWpWebPart.js",
+          "manifest": "./src/webparts/folderExplorerWp/FolderExplorerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -32,6 +208,28 @@
     "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
     "AccessibleAccordionWebPartStrings": "lib/webparts/accessibleAccordion/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-    "AAtestWebPartStrings": "lib/webparts/aAtest/loc/{locale}.js"
+    "AAtestWebPartStrings": "lib/webparts/aAtest/loc/{locale}.js",
+    "AccordionWebPartStrings": "lib/webparts/accordion/loc/{locale}.js",
+    "WEbPartTestWebPartStrings": "lib/webparts/wEbPartTest/loc/{locale}.js",
+    "AccordionDemoWebPartStrings": "lib/webparts/accordionDemo/loc/{locale}.js",
+    "AdaptiveCardHostDemoWebPartStrings": "lib/webparts/adaptiveCardHostDemo/loc/{locale}.js",
+    "DashboardDemoWebPartStrings": "lib/webparts/dashboardDemo/loc/{locale}.js",
+    "CarouselDemoWebPartStrings": "lib/webparts/carouselDemo/loc/{locale}.js",
+    "AnimatedDialogWebPartStrings": "lib/webparts/animatedDialog/loc/{locale}.js",
+    "ChartControlDemoWebPartStrings": "lib/webparts/chartControlDemo/loc/{locale}.js",
+    "ChartControlDemoWpWebPartStrings": "lib/webparts/chartControlDemoWp/loc/{locale}.js",
+    "DashBoardCorrigidoWebPartStrings": "lib/webparts/dashBoardCorrigido/loc/{locale}.js",
+    "DragDropFilesDemoWebPartStrings": "lib/webparts/dragDropFilesDemo/loc/{locale}.js",
+    "DateTimePickerWebPartStrings": "lib/webparts/dateTimePicker/loc/{locale}.js",
+    "DynamicFormWebPartStrings": "lib/webparts/dynamicForm/loc/{locale}.js",
+    "EnhancedThemeProviderWebPartStrings": "lib/webparts/enhancedThemeProvider/loc/{locale}.js",
+    "FieldCollectionDataWebPartStrings": "lib/webparts/fieldCollectionData/loc/{locale}.js",
+    "FieldPickerWebPartStrings": "lib/webparts/fieldPicker/loc/{locale}.js",
+    "FilePickerWebPartStrings": "lib/webparts/filePicker/loc/{locale}.js",
+    "FileTypeIconWebPartStrings": "lib/webparts/fileTypeIcon/loc/{locale}.js",
+    "FileTypeIconWpWebPartStrings": "lib/webparts/fileTypeIconWp/loc/{locale}.js",
+    "FilterBarWebPartStrings": "lib/webparts/filterBar/loc/{locale}.js",
+    "FolderExplorerWebPartStrings": "lib/webparts/folderExplorer/loc/{locale}.js",
+    "FolderExplorerWpWebPartStrings": "lib/webparts/folderExplorerWp/loc/{locale}.js"
   }
 }
