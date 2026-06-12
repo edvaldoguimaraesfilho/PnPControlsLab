@@ -1,178 +1,147 @@
-# PnP Controls Lab
+# PnP SPFx React Controls Lab
 
-## Overview
+A practical, structured learning repository for mastering the **[PnP SPFx React Controls](https://pnp.github.io/sp-dev-fx-controls-react/?utm_source=chatgpt.com)** library in the context of modern **SharePoint Framework (SPFx)** development.
 
-PnP Controls Lab is a hands-on SharePoint Framework (SPFx) learning project focused on exploring and implementing the official PnP SPFx React Controls library.
+This project was created as a hands-on roadmap to explore the official PnP reusable controls, one Web Part at a time, following a progressive path from beginner to advanced scenarios. The goal is not just to test controls, but to deeply understand how they integrate with SPFx, React, Fluent UI, and Microsoft 365 services.
 
-The goal of this repository is to build a large collection of individual SPFx web parts, each demonstrating a specific PnP React Control using the latest SharePoint Framework version.
+The repository is organized as a single SPFx solution containing multiple Web Parts (`WP01`, `WP02`, `WP03`...), where each Web Part demonstrates one specific control from the PnP library. Every implementation follows the official documentation and is accompanied by a technical article written in English, designed for publication on GitHub, LinkedIn, and technical blogs.
 
-Every web part includes:
+## Project Goals
 
-* Complete SPFx implementation
-* React and TypeScript source code
-* Heft-based development workflow
-* Official PnP documentation references
-* Practical usage examples
-* Community-ready documentation
+* Learn all major controls from the PnP SPFx React Controls library.
+* Understand practical use cases for each control.
+* Build reusable examples for real-world SharePoint projects.
+* Create technical documentation and articles for every control.
+* Maintain a structured roadmap for long-term study and portfolio building.
 
----
+## Tech Stack
 
-## SharePoint Framework Version
+* **SharePoint Framework (SPFx)**
+* **React**
+* **TypeScript**
+* **Fluent UI**
+* **PnP SPFx React Controls**
+* **Heft Build System**
+* **Node.js**
 
-![version](https://img.shields.io/badge/SPFx-1.23.0-green.svg)
+## Development Workflow
 
----
+Every Web Part follows the same workflow:
 
-## Technologies
-
-* SharePoint Framework (SPFx) 1.23.0
-* React
-* TypeScript
-* Fluent UI
-* PnP SPFx React Controls
-* Heft Build System
-* Microsoft 365
-
----
-
-## Applies To
-
-* SharePoint Online
-* Microsoft 365
-* SharePoint Framework Solutions
-
-> Get your free developer tenant through the Microsoft 365 Developer Program.
-
----
-
-## Project Objectives
-
-This laboratory was created to:
-
-* Learn every major control available in the PnP SPFx React Controls library
-* Create reusable SharePoint Framework examples
-* Provide practical implementation samples
-* Build a reference library for SharePoint developers
-* Demonstrate modern SPFx development patterns
-
----
-
-## Getting Started
-
-### Clone the Repository
-
-```bash
-git clone <repository-url>
-cd pn-p-controls-lab
-```
-
-### Install Dependencies
-
-```bash
+```powershell
+yo @microsoft/sharepoint
+npm install @pnp/spfx-controls-react --save
 npm install
-```
-
-### Install Heft
-
-```bash
-npm install -g @rushstack/heft
-```
-
-### Run the Solution
-
-```bash
 heft start
 ```
 
----
+Each article is stored inside:
 
-## Build Commands
-
-### Development
-
-```bash
-heft start
+```powershell
+.\docs\
 ```
 
-### Production Bundle
+Example:
 
-```bash
-gulp bundle --ship
+```powershell
+New-Item -Path ".\docs\wp01-accessibleaccordion.md" -ItemType File -Force
 ```
 
-### Package Solution
+## Roadmap
 
-```bash
-gulp package-solution --ship
-```
+This repository follows a structured roadmap of **76 controls**, divided into:
 
----
+### Standard Controls
 
-## Current Web Parts
+Examples include:
 
-| ID   | Control             | Status   |
-| ---- | ------------------- | -------- |
-| WP01 | AccessibleAccordion | Complete |
-| WP02 | Accordion           | Planned  |
+* AccessibleAccordion
+* Accordion
+* AdaptiveCardHost
+* AnimatedDialog
+* Carousel
+* ChartControl
+* Dashboard
+* DragDropFiles
+* DynamicForm
+* FilePicker
+* PeoplePicker
+* TaxonomyPicker
+* TreeView
+* UploadFiles
 
-Additional controls will be added continuously as part of the learning roadmap.
+### Property Pane Controls
 
----
+Examples include:
+
+* PropertyFieldCollectionData
+* PropertyFieldColorPicker
+* PropertyFieldContentPicker
+* PropertyFieldDateTimePicker
+* PropertyFieldFilePicker
+* PropertyFieldPeoplePicker
+* PropertyFieldSitePicker
+* PropertyFieldTermPicker
+
+Roadmap reference: 
+
+## Current Progress
+
+| Status        | Total |
+| ------------- | ----: |
+| Completed     |   10+ |
+| Remaining     |   60+ |
+| Total Planned |    76 |
 
 ## Repository Structure
 
 ```text
 src/
- └─ webparts/
-     ├─ accessibleAccordion/
-     ├─ accordion/
-     ├─ ...
+ └── webparts/
+      ├── accessibleAccordion/
+      ├── accordion/
+      ├── adaptiveCardHost/
+      ├── animatedDialog/
+      ├── carousel/
+      ├── chartControl/
+      ├── dashboard/
+      └── ...
+docs/
+ ├── wp01-accessibleaccordion.md
+ ├── wp02-accordion.md
+ ├── wp03-adaptivecardhost.md
+ └── ...
 ```
 
-Each web part demonstrates a single PnP React Control and can be studied independently.
+## Learning Philosophy
 
----
+This repository is based on **learning by building**.
+
+Instead of reading isolated documentation, each control is:
+
+1. Studied from the official PnP documentation.
+2. Implemented inside a working SPFx solution.
+3. Tested in SharePoint Workbench.
+4. Documented with technical explanations.
+5. Published as part of a public portfolio.
+
+This creates both practical expertise and public technical content.
 
 ## Official Documentation
 
-### SharePoint Framework
+Main source used in this project:
 
-* [https://learn.microsoft.com/sharepoint/dev/spfx/](https://learn.microsoft.com/sharepoint/dev/spfx/)
+[PnP SPFx React Controls Official Docs](https://pnp.github.io/sp-dev-fx-controls-react/?utm_source=chatgpt.com)
 
-### PnP SPFx React Controls
+## Long-Term Vision
 
-* [https://pnp.github.io/sp-dev-fx-controls-react/](https://pnp.github.io/sp-dev-fx-controls-react/)
+This project is part of a broader SharePoint engineering roadmap focused on:
 
-### Fluent UI
+* Advanced SPFx development
+* Reusable enterprise components
+* Modern UI patterns
+* Microsoft 365 integrations
+* SharePoint Online extensibility
+* Developer portfolio building
 
-* [https://developer.microsoft.com/fluentui](https://developer.microsoft.com/fluentui)
-
-### Heft
-
-* [https://heft.rushstack.io/](https://heft.rushstack.io/)
-
----
-
-## Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-If you find issues or have ideas for additional PnP control samples, feel free to submit a pull request or open an issue.
-
----
-
-## Disclaimer
-
-This project is provided for educational and demonstration purposes.
-
-All code is provided **"AS IS"**, without warranty of any kind, express or implied.
-
----
-
-## Author
-
-Edvaldo Guimarães
-
-SharePoint Developer | Microsoft 365 | SPFx | Power Platform
-
-Esse texto fica muito mais adequado para um repositório público de laboratório SPFx do que o template padrão gerado pelo PnP.
+By the end of this lab, the repository will become a complete practical reference for PnP SPFx controls and a solid foundation for enterprise SharePoint solutions.
