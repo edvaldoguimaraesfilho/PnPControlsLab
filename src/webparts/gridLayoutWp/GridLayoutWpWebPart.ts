@@ -8,24 +8,24 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
-import * as strings from 'CalendarWpWebPartStrings';
-import CalendarWp from './components/CalendarWp';
-import { ICalendarWpProps } from './components/ICalendarWpProps';
+import * as strings from 'GridLayoutWpWebPartStrings';
+import GridLayoutWp from './components/GridLayoutWp';
+import { IGridLayoutWpProps } from './components/IGridLayoutWpProps';
 
-export interface ICalendarWpWebPartProps {
+export interface IGridLayoutWpWebPartProps {
   description: string;
 }
 
-export default class CalendarWpWebPart extends BaseClientSideWebPart<ICalendarWpWebPartProps> {
+export default class GridLayoutWpWebPart extends BaseClientSideWebPart<IGridLayoutWpWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
 
   public render(): void {
-    const element: React.ReactElement<{}> = React.createElement(
-      CalendarWp,
+    const element: React.ReactElement<IGridLayoutWpProps> = React.createElement(
+      GridLayoutWp,
       {
-       
+        
       }
     );
 

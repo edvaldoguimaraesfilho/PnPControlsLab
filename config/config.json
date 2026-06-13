@@ -217,6 +217,14 @@
           "manifest": "./src/webparts/calendarWp/CalendarWpWebPart.manifest.json"
         }
       ]
+    },
+    "grid-layout-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gridLayoutWp/GridLayoutWpWebPart.js",
+          "manifest": "./src/webparts/gridLayoutWp/GridLayoutWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -248,6 +256,7 @@
     "FolderExplorerWebPartStrings": "lib/webparts/folderExplorer/loc/{locale}.js",
     "FolderExplorerWpWebPartStrings": "lib/webparts/folderExplorerWp/loc/{locale}.js",
     "FolderPickerWpWebPartStrings": "lib/webparts/folderPickerWp/loc/{locale}.js",
-    "CalendarWpWebPartStrings": "lib/webparts/calendarWp/loc/{locale}.js"
+    "CalendarWpWebPartStrings": "lib/webparts/calendarWp/loc/{locale}.js",
+    "GridLayoutWpWebPartStrings": "lib/webparts/gridLayoutWp/loc/{locale}.js"
   }
 }
