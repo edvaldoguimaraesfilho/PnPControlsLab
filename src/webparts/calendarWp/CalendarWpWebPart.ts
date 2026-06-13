@@ -8,24 +8,24 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
-import * as strings from 'FolderExplorerWpWebPartStrings';
-import FolderExplorerWp from './components/FolderExplorerWp';
-import { IFolderExplorerWpProps } from './components/IFolderExplorerWpProps';
+import * as strings from 'CalendarWpWebPartStrings';
+import CalendarWp from './components/CalendarWp';
+import { ICalendarWpProps } from './components/ICalendarWpProps';
 
-export interface IFolderExplorerWpWebPartProps {
+export interface ICalendarWpWebPartProps {
   description: string;
 }
 
-export default class FolderExplorerWpWebPart extends BaseClientSideWebPart<IFolderExplorerWpWebPartProps> {
+export default class CalendarWpWebPart extends BaseClientSideWebPart<ICalendarWpWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
 
   public render(): void {
-    const element: React.ReactElement<IFolderExplorerWpProps> = React.createElement(
-      FolderExplorerWp,
+    const element: React.ReactElement<ICalendarWpProps> = React.createElement(
+      CalendarWp,
       {
-        context: this.context
+       
       }
     );
 

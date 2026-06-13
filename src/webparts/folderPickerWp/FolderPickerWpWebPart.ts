@@ -8,24 +8,24 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
-import * as strings from 'FolderExplorerWpWebPartStrings';
-import FolderExplorerWp from './components/FolderExplorerWp';
-import { IFolderExplorerWpProps } from './components/IFolderExplorerWpProps';
+import * as strings from 'FolderPickerWpWebPartStrings';
+import FolderPickerWp from './components/FolderPickerWp';
+import { IFolderPickerWpProps } from './components/IFolderPickerWpProps';
 
-export interface IFolderExplorerWpWebPartProps {
+export interface IFolderPickerWpWebPartProps {
   description: string;
 }
 
-export default class FolderExplorerWpWebPart extends BaseClientSideWebPart<IFolderExplorerWpWebPartProps> {
+export default class FolderPickerWpWebPart extends BaseClientSideWebPart<IFolderPickerWpWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
 
   public render(): void {
-    const element: React.ReactElement<IFolderExplorerWpProps> = React.createElement(
-      FolderExplorerWp,
+    const element: React.ReactElement<IFolderPickerWpProps> = React.createElement(
+      FolderPickerWp,
       {
-        context: this.context
+        context: this.context,
       }
     );
 

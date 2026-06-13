@@ -201,6 +201,22 @@
           "manifest": "./src/webparts/folderExplorerWp/FolderExplorerWpWebPart.manifest.json"
         }
       ]
+    },
+    "folder-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/folderPickerWp/FolderPickerWpWebPart.js",
+          "manifest": "./src/webparts/folderPickerWp/FolderPickerWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "calendar-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/calendarWp/CalendarWpWebPart.js",
+          "manifest": "./src/webparts/calendarWp/CalendarWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -230,6 +246,8 @@
     "FileTypeIconWpWebPartStrings": "lib/webparts/fileTypeIconWp/loc/{locale}.js",
     "FilterBarWebPartStrings": "lib/webparts/filterBar/loc/{locale}.js",
     "FolderExplorerWebPartStrings": "lib/webparts/folderExplorer/loc/{locale}.js",
-    "FolderExplorerWpWebPartStrings": "lib/webparts/folderExplorerWp/loc/{locale}.js"
+    "FolderExplorerWpWebPartStrings": "lib/webparts/folderExplorerWp/loc/{locale}.js",
+    "FolderPickerWpWebPartStrings": "lib/webparts/folderPickerWp/loc/{locale}.js",
+    "CalendarWpWebPartStrings": "lib/webparts/calendarWp/loc/{locale}.js"
   }
 }
