@@ -225,6 +225,22 @@
           "manifest": "./src/webparts/gridLayoutWp/GridLayoutWpWebPart.manifest.json"
         }
       ]
+    },
+    "hover-reactions-bar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hoverReactionsBar/HoverReactionsBarWebPart.js",
+          "manifest": "./src/webparts/hoverReactionsBar/HoverReactionsBarWebPart.manifest.json"
+        }
+      ]
+    },
+    "hover-reactions-bar-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hoverReactionsBarWp/HoverReactionsBarWpWebPart.js",
+          "manifest": "./src/webparts/hoverReactionsBarWp/HoverReactionsBarWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -257,6 +273,8 @@
     "FolderExplorerWpWebPartStrings": "lib/webparts/folderExplorerWp/loc/{locale}.js",
     "FolderPickerWpWebPartStrings": "lib/webparts/folderPickerWp/loc/{locale}.js",
     "CalendarWpWebPartStrings": "lib/webparts/calendarWp/loc/{locale}.js",
-    "GridLayoutWpWebPartStrings": "lib/webparts/gridLayoutWp/loc/{locale}.js"
+    "GridLayoutWpWebPartStrings": "lib/webparts/gridLayoutWp/loc/{locale}.js",
+    "HoverReactionsBarWebPartStrings": "lib/webparts/hoverReactionsBar/loc/{locale}.js",
+    "HoverReactionsBarWpWebPartStrings": "lib/webparts/hoverReactionsBarWp/loc/{locale}.js"
   }
 }
