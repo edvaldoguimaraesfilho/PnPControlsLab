@@ -241,6 +241,14 @@
           "manifest": "./src/webparts/hoverReactionsBarWp/HoverReactionsBarWpWebPart.manifest.json"
         }
       ]
+    },
+    "icon-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/iconPickerWp/IconPickerWpWebPart.js",
+          "manifest": "./src/webparts/iconPickerWp/IconPickerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -275,6 +283,7 @@
     "CalendarWpWebPartStrings": "lib/webparts/calendarWp/loc/{locale}.js",
     "GridLayoutWpWebPartStrings": "lib/webparts/gridLayoutWp/loc/{locale}.js",
     "HoverReactionsBarWebPartStrings": "lib/webparts/hoverReactionsBar/loc/{locale}.js",
-    "HoverReactionsBarWpWebPartStrings": "lib/webparts/hoverReactionsBarWp/loc/{locale}.js"
+    "HoverReactionsBarWpWebPartStrings": "lib/webparts/hoverReactionsBarWp/loc/{locale}.js",
+    "IconPickerWpWebPartStrings": "lib/webparts/iconPickerWp/loc/{locale}.js"
   }
 }
