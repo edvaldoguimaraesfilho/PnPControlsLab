@@ -249,6 +249,14 @@
           "manifest": "./src/webparts/iconPickerWp/IconPickerWpWebPart.manifest.json"
         }
       ]
+    },
+    "i-frame-dialog-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/iFrameDialogWp/IFrameDialogWpWebPart.js",
+          "manifest": "./src/webparts/iFrameDialogWp/IFrameDialogWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -284,6 +292,7 @@
     "GridLayoutWpWebPartStrings": "lib/webparts/gridLayoutWp/loc/{locale}.js",
     "HoverReactionsBarWebPartStrings": "lib/webparts/hoverReactionsBar/loc/{locale}.js",
     "HoverReactionsBarWpWebPartStrings": "lib/webparts/hoverReactionsBarWp/loc/{locale}.js",
-    "IconPickerWpWebPartStrings": "lib/webparts/iconPickerWp/loc/{locale}.js"
+    "IconPickerWpWebPartStrings": "lib/webparts/iconPickerWp/loc/{locale}.js",
+    "IFrameDialogWpWebPartStrings": "lib/webparts/iFrameDialogWp/loc/{locale}.js"
   }
 }
