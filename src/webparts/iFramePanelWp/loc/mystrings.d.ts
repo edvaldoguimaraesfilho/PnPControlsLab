@@ -1,0 +1,19 @@
+declare interface IIFramePanelWpWebPartStrings {
+  PropertyPaneDescription: string;
+  BasicGroupName: string;
+  DescriptionFieldLabel: string;
+  AppLocalEnvironmentSharePoint: string;
+  AppLocalEnvironmentTeams: string;
+  AppLocalEnvironmentOffice: string;
+  AppLocalEnvironmentOutlook: string;
+  AppSharePointEnvironment: string;
+  AppTeamsTabEnvironment: string;
+  AppOfficeEnvironment: string;
+  AppOutlookEnvironment: string;
+  UnknownEnvironment: string;
+}
+
+declare module 'IFramePanelWpWebPartStrings' {
+  const strings: IIFramePanelWpWebPartStrings;
+  export = strings;
+}
