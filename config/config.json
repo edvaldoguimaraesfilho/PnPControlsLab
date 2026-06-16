@@ -305,6 +305,14 @@
           "manifest": "./src/webparts/listItemPickerWp/ListItemPickerWpWebPart.manifest.json"
         }
       ]
+    },
+    "list-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listPickerWp/ListPickerWpWebPart.js",
+          "manifest": "./src/webparts/listPickerWp/ListPickerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -347,6 +355,7 @@
     "ListItemAttachmentsWebPartStrings": "lib/webparts/listItemAttachments/loc/{locale}.js",
     "ListItemAttachmentsWpWebPartStrings": "lib/webparts/listItemAttachmentsWp/loc/{locale}.js",
     "ListItemCommentsWpWebPartStrings": "lib/webparts/listItemCommentsWp/loc/{locale}.js",
-    "ListItemPickerWpWebPartStrings": "lib/webparts/listItemPickerWp/loc/{locale}.js"
+    "ListItemPickerWpWebPartStrings": "lib/webparts/listItemPickerWp/loc/{locale}.js",
+    "ListPickerWpWebPartStrings": "lib/webparts/listPickerWp/loc/{locale}.js"
   }
 }
