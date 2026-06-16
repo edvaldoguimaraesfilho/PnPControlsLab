@@ -289,6 +289,22 @@
           "manifest": "./src/webparts/listItemAttachmentsWp/ListItemAttachmentsWpWebPart.manifest.json"
         }
       ]
+    },
+    "list-item-comments-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listItemCommentsWp/ListItemCommentsWpWebPart.js",
+          "manifest": "./src/webparts/listItemCommentsWp/ListItemCommentsWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-item-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listItemPickerWp/ListItemPickerWpWebPart.js",
+          "manifest": "./src/webparts/listItemPickerWp/ListItemPickerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -329,6 +345,8 @@
     "IFramePanelWpWebPartStrings": "lib/webparts/iFramePanelWp/loc/{locale}.js",
     "ImagePickerWpWebPartStrings": "lib/webparts/imagePickerWp/loc/{locale}.js",
     "ListItemAttachmentsWebPartStrings": "lib/webparts/listItemAttachments/loc/{locale}.js",
-    "ListItemAttachmentsWpWebPartStrings": "lib/webparts/listItemAttachmentsWp/loc/{locale}.js"
+    "ListItemAttachmentsWpWebPartStrings": "lib/webparts/listItemAttachmentsWp/loc/{locale}.js",
+    "ListItemCommentsWpWebPartStrings": "lib/webparts/listItemCommentsWp/loc/{locale}.js",
+    "ListItemPickerWpWebPartStrings": "lib/webparts/listItemPickerWp/loc/{locale}.js"
   }
 }
