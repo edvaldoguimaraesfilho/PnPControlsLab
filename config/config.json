@@ -273,6 +273,22 @@
           "manifest": "./src/webparts/imagePickerWp/ImagePickerWpWebPart.manifest.json"
         }
       ]
+    },
+    "list-item-attachments-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listItemAttachments/ListItemAttachmentsWebPart.js",
+          "manifest": "./src/webparts/listItemAttachments/ListItemAttachmentsWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-item-attachments-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listItemAttachmentsWp/ListItemAttachmentsWpWebPart.js",
+          "manifest": "./src/webparts/listItemAttachmentsWp/ListItemAttachmentsWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -311,6 +327,8 @@
     "IconPickerWpWebPartStrings": "lib/webparts/iconPickerWp/loc/{locale}.js",
     "IFrameDialogWpWebPartStrings": "lib/webparts/iFrameDialogWp/loc/{locale}.js",
     "IFramePanelWpWebPartStrings": "lib/webparts/iFramePanelWp/loc/{locale}.js",
-    "ImagePickerWpWebPartStrings": "lib/webparts/imagePickerWp/loc/{locale}.js"
+    "ImagePickerWpWebPartStrings": "lib/webparts/imagePickerWp/loc/{locale}.js",
+    "ListItemAttachmentsWebPartStrings": "lib/webparts/listItemAttachments/loc/{locale}.js",
+    "ListItemAttachmentsWpWebPartStrings": "lib/webparts/listItemAttachmentsWp/loc/{locale}.js"
   }
 }
