@@ -1,45 +1,25 @@
 import * as React from 'react';
-import styles from './ListItemPickerWp.module.scss';
-import type { IListItemPickerWpProps } from './IListItemPickerWpProps';
-import { escape } from '@microsoft/sp-lodash-subset';
-import welcomeDark from '../assets/welcome-dark.png';
-import welcomeLight from '../assets/welcome-light.png';
+import { ListItemPicker } from '@pnp/spfx-controls-react/lib/ListItemPicker';
+import { IListItemPickerWpProps } from './IListItemPickerWpProps';
 
-export default class ListItemPickerWp extends React.Component<IListItemPickerWpProps> {
-  public render(): React.ReactElement<IListItemPickerWpProps> {
-    const {
-      description,
-      isDarkTheme,
-      environmentMessage,
-      hasTeamsContext,
-      userDisplayName
-    } = this.props;
-
-    return (
-      <section className={`${styles.listItemPickerWp} ${hasTeamsContext ? styles.teams : ''}`}>
-        <div className={styles.welcome}>
-          <img alt="" src={isDarkTheme ? welcomeDark : welcomeLight} className={styles.welcomeImage} />
-          <h2>Well done, {escape(userDisplayName)}!</h2>
-          <div>{environmentMessage}</div>
-          <div>Web part property value: <strong>{escape(description)}</strong></div>
-        </div>
-        <div>
-          <h3>Welcome to SharePoint Framework!</h3>
-          <p>
-            The SharePoint Framework (SPFx) is a extensibility model for Microsoft Viva, Microsoft Teams and SharePoint. It&#39;s the easiest way to extend Microsoft 365 with automatic Single Sign On, automatic hosting and industry standard tooling.
-          </p>
-          <h4>Learn more about SPFx development:</h4>
-          <ul className={styles.links}>
-            <li><a href="https://aka.ms/spfx" target="_blank" rel="noreferrer">SharePoint Framework Overview</a></li>
-            <li><a href="https://aka.ms/spfx-yeoman-graph" target="_blank" rel="noreferrer">Use Microsoft Graph in your solution</a></li>
-            <li><a href="https://aka.ms/spfx-yeoman-teams" target="_blank" rel="noreferrer">Build for Microsoft Teams using SharePoint Framework</a></li>
-            <li><a href="https://aka.ms/spfx-yeoman-viva" target="_blank" rel="noreferrer">Build for Microsoft Viva Connections using SharePoint Framework</a></li>
-            <li><a href="https://aka.ms/spfx-yeoman-store" target="_blank" rel="noreferrer">Publish SharePoint Framework applications to the marketplace</a></li>
-            <li><a href="https://aka.ms/spfx-yeoman-api" target="_blank" rel="noreferrer">SharePoint Framework API reference</a></li>
-            <li><a href="https://aka.ms/m365pnp" target="_blank" rel="noreferrer">Microsoft 365 Developer Community</a></li>
-          </ul>
-        </div>
-      </section>
-    );
+const onSelectedItem = (data: { key: string; name: string }[]) => {
+  for (const item of data) {
+    console.log(`Item value: ${item.key}`);
+    console.log(`Item text: ${item.name}`);
   }
 }
+
+const ListItempickerWp: React.FC<IListItemPickerWpProps> = ({context}) => {
+  return (
+   <ListItemPicker listId='ab7a0321-e395-40c5-89d5-fad2b68fc6cd'
+                columnInternalName='Title'
+                keyColumnInternalName='Id'
+                filter="Title eq 'Air Conditioner'"
+                orderBy={"Id desc"}
+                itemLimit={30}
+                onSelectedItem={onSelectedItem}
+                context={context} />
+  );
+};
+
+export default ListItempickerWp;    

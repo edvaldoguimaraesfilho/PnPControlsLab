@@ -25,11 +25,7 @@ export default class ListItemPickerWpWebPart extends BaseClientSideWebPart<IList
     const element: React.ReactElement<IListItemPickerWpProps> = React.createElement(
       ListItemPickerWp,
       {
-        description: this.properties.description,
-        isDarkTheme: this._isDarkTheme,
-        environmentMessage: this._environmentMessage,
-        hasTeamsContext: !!this.context.sdks.microsoftTeams,
-        userDisplayName: this.context.pageContext.user.displayName
+        context: this.context
       }
     );
 
