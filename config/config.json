@@ -313,6 +313,38 @@
           "manifest": "./src/webparts/listPickerWp/ListPickerWpWebPart.manifest.json"
         }
       ]
+    },
+    "list-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listView/ListViewWebPart.js",
+          "manifest": "./src/webparts/listView/ListViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-view-wp-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listViewWp1/ListViewWp1WebPart.js",
+          "manifest": "./src/webparts/listViewWp1/ListViewWp1WebPart.manifest.json"
+        }
+      ]
+    },
+    "list-view-context-menu-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listViewContextMenu/ListViewContextMenuWebPart.js",
+          "manifest": "./src/webparts/listViewContextMenu/ListViewContextMenuWebPart.manifest.json"
+        }
+      ]
+    },
+    "sp-pn-pbasico-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spPnPbasico/SpPnPbasicoWebPart.js",
+          "manifest": "./src/webparts/spPnPbasico/SpPnPbasicoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -356,6 +388,10 @@
     "ListItemAttachmentsWpWebPartStrings": "lib/webparts/listItemAttachmentsWp/loc/{locale}.js",
     "ListItemCommentsWpWebPartStrings": "lib/webparts/listItemCommentsWp/loc/{locale}.js",
     "ListItemPickerWpWebPartStrings": "lib/webparts/listItemPickerWp/loc/{locale}.js",
-    "ListPickerWpWebPartStrings": "lib/webparts/listPickerWp/loc/{locale}.js"
+    "ListPickerWpWebPartStrings": "lib/webparts/listPickerWp/loc/{locale}.js",
+    "ListViewWebPartStrings": "lib/webparts/listView/loc/{locale}.js",
+    "ListViewWp1WebPartStrings": "lib/webparts/listViewWp1/loc/{locale}.js",
+    "ListViewContextMenuWebPartStrings": "lib/webparts/listViewContextMenu/loc/{locale}.js",
+    "SpPnPbasicoWebPartStrings": "lib/webparts/spPnPbasico/loc/{locale}.js"
   }
 }
