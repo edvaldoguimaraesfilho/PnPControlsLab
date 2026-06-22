@@ -369,6 +369,14 @@
           "manifest": "./src/webparts/spPnPbasicListViewContextMenu/SpPnPbasicListViewContextMenuWebPart.manifest.json"
         }
       ]
+    },
+    "live-persona-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/livePersonaWp/LivePersonaWpWebPart.js",
+          "manifest": "./src/webparts/livePersonaWp/LivePersonaWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -419,6 +427,7 @@
     "SpPnPbasicoWebPartStrings": "lib/webparts/spPnPbasico/loc/{locale}.js",
     "ListViewContextMenuWpWebPartStrings": "lib/webparts/listViewContextMenuWp/loc/{locale}.js",
     "SpBasicoListViewWebPartStrings": "lib/webparts/spBasicoListView/loc/{locale}.js",
-    "SpPnPbasicListViewContextMenuWebPartStrings": "lib/webparts/spPnPbasicListViewContextMenu/loc/{locale}.js"
+    "SpPnPbasicListViewContextMenuWebPartStrings": "lib/webparts/spPnPbasicListViewContextMenu/loc/{locale}.js",
+    "LivePersonaWpWebPartStrings": "lib/webparts/livePersonaWp/loc/{locale}.js"
   }
 }
