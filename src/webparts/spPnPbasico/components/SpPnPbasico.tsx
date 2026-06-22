@@ -19,9 +19,7 @@ const SpPnPbasico: React.FC<ISpPnPbasicoProps> = (props) => {
 
   const [items, setItems] = useState<IBikeSaleItem[]>([]);
 
-  useEffect(() => {
-    loadItems();
-  }, []);
+ 
 
   const loadItems = async (): Promise<void> => {
     try {
@@ -38,6 +36,14 @@ const SpPnPbasico: React.FC<ISpPnPbasicoProps> = (props) => {
       console.error("Error loading Bike Sales items:", error);
     }
   };
+
+   useEffect(() => {
+    loadItems().then(() => {
+      console.log("Items loaded successfully.");
+    }).catch(error => {
+      console.error("Error in loadItems:", error);
+    }); 
+  }, []);
 
   const viewFields: IViewField[] = [
     {

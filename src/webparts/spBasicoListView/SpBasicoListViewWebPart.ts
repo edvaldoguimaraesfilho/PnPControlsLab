@@ -8,24 +8,24 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
-import * as strings from 'ListViewContextMenuWebPartStrings';
-import ListViewContextMenu from './components/ListViewContextMenu';
-import { IListViewContextMenuProps } from './components/IListViewContextMenuProps';
+import * as strings from 'SpBasicoListViewWebPartStrings';
+import SpBasicoListView from './components/SpBasicoListView';
+import { ISpBasicoListViewProps } from './components/ISpBasicoListViewProps';
 
-export interface IListViewContextMenuWebPartProps {
+export interface ISpBasicoListViewWebPartProps {
   description: string;
 }
 
-export default class ListViewContextMenuWebPart extends BaseClientSideWebPart<IListViewContextMenuWebPartProps> {
+export default class SpBasicoListViewWebPart extends BaseClientSideWebPart<ISpBasicoListViewWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
 
   public render(): void {
-    const element: React.ReactElement<{}> = React.createElement(
-      ListViewContextMenu,
+    const element: React.ReactElement<ISpBasicoListViewProps> = React.createElement(
+      SpBasicoListView,
       {
-       
+       context: this.context
       }
     );
 

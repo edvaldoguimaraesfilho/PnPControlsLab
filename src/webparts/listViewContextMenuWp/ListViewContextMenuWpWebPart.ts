@@ -8,24 +8,28 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
-import * as strings from 'ListViewContextMenuWebPartStrings';
-import ListViewContextMenu from './components/ListViewContextMenu';
-import { IListViewContextMenuProps } from './components/IListViewContextMenuProps';
+import * as strings from 'ListViewContextMenuWpWebPartStrings';
+import ListViewContextMenuWp from './components/ListViewContextMenuWp';
+import { IListViewContextMenuWpProps } from './components/IListViewContextMenuWpProps';
 
-export interface IListViewContextMenuWebPartProps {
+export interface IListViewContextMenuWpWebPartProps {
   description: string;
 }
 
-export default class ListViewContextMenuWebPart extends BaseClientSideWebPart<IListViewContextMenuWebPartProps> {
+export default class ListViewContextMenuWpWebPart extends BaseClientSideWebPart<IListViewContextMenuWpWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
 
   public render(): void {
-    const element: React.ReactElement<{}> = React.createElement(
-      ListViewContextMenu,
+    const element: React.ReactElement<IListViewContextMenuWpProps> = React.createElement(
+      ListViewContextMenuWp,
       {
-       
+        description: this.properties.description,
+        isDarkTheme: this._isDarkTheme,
+        environmentMessage: this._environmentMessage,
+        hasTeamsContext: !!this.context.sdks.microsoftTeams,
+        userDisplayName: this.context.pageContext.user.displayName
       }
     );
 

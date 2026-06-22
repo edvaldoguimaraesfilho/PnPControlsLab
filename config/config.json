@@ -345,6 +345,30 @@
           "manifest": "./src/webparts/spPnPbasico/SpPnPbasicoWebPart.manifest.json"
         }
       ]
+    },
+    "list-view-context-menu-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listViewContextMenuWp/ListViewContextMenuWpWebPart.js",
+          "manifest": "./src/webparts/listViewContextMenuWp/ListViewContextMenuWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "sp-basico-list-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spBasicoListView/SpBasicoListViewWebPart.js",
+          "manifest": "./src/webparts/spBasicoListView/SpBasicoListViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "sp-pn-pbasic-list-view-context-menu-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spPnPbasicListViewContextMenu/SpPnPbasicListViewContextMenuWebPart.js",
+          "manifest": "./src/webparts/spPnPbasicListViewContextMenu/SpPnPbasicListViewContextMenuWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -392,6 +416,9 @@
     "ListViewWebPartStrings": "lib/webparts/listView/loc/{locale}.js",
     "ListViewWp1WebPartStrings": "lib/webparts/listViewWp1/loc/{locale}.js",
     "ListViewContextMenuWebPartStrings": "lib/webparts/listViewContextMenu/loc/{locale}.js",
-    "SpPnPbasicoWebPartStrings": "lib/webparts/spPnPbasico/loc/{locale}.js"
+    "SpPnPbasicoWebPartStrings": "lib/webparts/spPnPbasico/loc/{locale}.js",
+    "ListViewContextMenuWpWebPartStrings": "lib/webparts/listViewContextMenuWp/loc/{locale}.js",
+    "SpBasicoListViewWebPartStrings": "lib/webparts/spBasicoListView/loc/{locale}.js",
+    "SpPnPbasicListViewContextMenuWebPartStrings": "lib/webparts/spPnPbasicListViewContextMenu/loc/{locale}.js"
   }
 }
