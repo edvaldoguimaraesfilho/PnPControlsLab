@@ -393,6 +393,14 @@
           "manifest": "./src/webparts/mapControlWp/MapControlWpWebPart.manifest.json"
         }
       ]
+    },
+    "modern-taxonomy-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/modernTaxonomyPickerWp/ModernTaxonomyPickerWpWebPart.js",
+          "manifest": "./src/webparts/modernTaxonomyPickerWp/ModernTaxonomyPickerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -446,6 +454,7 @@
     "SpPnPbasicListViewContextMenuWebPartStrings": "lib/webparts/spPnPbasicListViewContextMenu/loc/{locale}.js",
     "LivePersonaWpWebPartStrings": "lib/webparts/livePersonaWp/loc/{locale}.js",
     "LocationPickerWpWebPartStrings": "lib/webparts/locationPickerWp/loc/{locale}.js",
-    "MapControlWpWebPartStrings": "lib/webparts/mapControlWp/loc/{locale}.js"
+    "MapControlWpWebPartStrings": "lib/webparts/mapControlWp/loc/{locale}.js",
+    "ModernTaxonomyPickerWpWebPartStrings": "lib/webparts/modernTaxonomyPickerWp/loc/{locale}.js"
   }
 }
