@@ -377,6 +377,22 @@
           "manifest": "./src/webparts/livePersonaWp/LivePersonaWpWebPart.manifest.json"
         }
       ]
+    },
+    "location-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/locationPickerWp/LocationPickerWpWebPart.js",
+          "manifest": "./src/webparts/locationPickerWp/LocationPickerWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "map-control-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mapControlWp/MapControlWpWebPart.js",
+          "manifest": "./src/webparts/mapControlWp/MapControlWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -428,6 +444,8 @@
     "ListViewContextMenuWpWebPartStrings": "lib/webparts/listViewContextMenuWp/loc/{locale}.js",
     "SpBasicoListViewWebPartStrings": "lib/webparts/spBasicoListView/loc/{locale}.js",
     "SpPnPbasicListViewContextMenuWebPartStrings": "lib/webparts/spPnPbasicListViewContextMenu/loc/{locale}.js",
-    "LivePersonaWpWebPartStrings": "lib/webparts/livePersonaWp/loc/{locale}.js"
+    "LivePersonaWpWebPartStrings": "lib/webparts/livePersonaWp/loc/{locale}.js",
+    "LocationPickerWpWebPartStrings": "lib/webparts/locationPickerWp/loc/{locale}.js",
+    "MapControlWpWebPartStrings": "lib/webparts/mapControlWp/loc/{locale}.js"
   }
 }
