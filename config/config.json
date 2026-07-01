@@ -401,6 +401,54 @@
           "manifest": "./src/webparts/modernTaxonomyPickerWp/ModernTaxonomyPickerWpWebPart.manifest.json"
         }
       ]
+    },
+    "progress-steps-indicator-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/progressStepsIndicatorWp/ProgressStepsIndicatorWpWebPart.js",
+          "manifest": "./src/webparts/progressStepsIndicatorWp/ProgressStepsIndicatorWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "monaco-editor-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/monacoEditorWp/MonacoEditorWpWebPart.js",
+          "manifest": "./src/webparts/monacoEditorWp/MonacoEditorWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "pagination-control-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/paginationControlWp/PaginationControlWpWebPart.js",
+          "manifest": "./src/webparts/paginationControlWp/PaginationControlWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "people-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/peoplePickerWp/PeoplePickerWpWebPart.js",
+          "manifest": "./src/webparts/peoplePickerWp/PeoplePickerWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "placeholder-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/placeholderWp/PlaceholderWpWebPart.js",
+          "manifest": "./src/webparts/placeholderWp/PlaceholderWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "progress-control-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/progressControlWp/ProgressControlWpWebPart.js",
+          "manifest": "./src/webparts/progressControlWp/ProgressControlWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -455,6 +503,12 @@
     "LivePersonaWpWebPartStrings": "lib/webparts/livePersonaWp/loc/{locale}.js",
     "LocationPickerWpWebPartStrings": "lib/webparts/locationPickerWp/loc/{locale}.js",
     "MapControlWpWebPartStrings": "lib/webparts/mapControlWp/loc/{locale}.js",
-    "ModernTaxonomyPickerWpWebPartStrings": "lib/webparts/modernTaxonomyPickerWp/loc/{locale}.js"
+    "ModernTaxonomyPickerWpWebPartStrings": "lib/webparts/modernTaxonomyPickerWp/loc/{locale}.js",
+    "ProgressStepsIndicatorWpWebPartStrings": "lib/webparts/progressStepsIndicatorWp/loc/{locale}.js",
+    "MonacoEditorWpWebPartStrings": "lib/webparts/monacoEditorWp/loc/{locale}.js",
+    "PaginationControlWpWebPartStrings": "lib/webparts/paginationControlWp/loc/{locale}.js",
+    "PeoplePickerWpWebPartStrings": "lib/webparts/peoplePickerWp/loc/{locale}.js",
+    "PlaceholderWpWebPartStrings": "lib/webparts/placeholderWp/loc/{locale}.js",
+    "ProgressControlWpWebPartStrings": "lib/webparts/progressControlWp/loc/{locale}.js"
   }
 }
