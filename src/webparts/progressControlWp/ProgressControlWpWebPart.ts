@@ -25,11 +25,7 @@ export default class ProgressControlWpWebPart extends BaseClientSideWebPart<IPro
     const element: React.ReactElement<IProgressControlWpProps> = React.createElement(
       ProgressControlWp,
       {
-        description: this.properties.description,
-        isDarkTheme: this._isDarkTheme,
-        environmentMessage: this._environmentMessage,
-        hasTeamsContext: !!this.context.sdks.microsoftTeams,
-        userDisplayName: this.context.pageContext.user.displayName
+        
       }
     );
 
