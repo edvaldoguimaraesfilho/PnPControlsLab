@@ -449,6 +449,30 @@
           "manifest": "./src/webparts/progressControlWp/ProgressControlWpWebPart.manifest.json"
         }
       ]
+    },
+    "progress-control-2-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/progressControl2Wp/ProgressControl2WpWebPart.js",
+          "manifest": "./src/webparts/progressControl2Wp/ProgressControl2WpWebPart.manifest.json"
+        }
+      ]
+    },
+    "progress-wp-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/progressWp3/ProgressWp3WebPart.js",
+          "manifest": "./src/webparts/progressWp3/ProgressWp3WebPart.manifest.json"
+        }
+      ]
+    },
+    "property-pane-basic-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneBasic/PropertyPaneBasicWebPart.js",
+          "manifest": "./src/webparts/propertyPaneBasic/PropertyPaneBasicWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -509,6 +533,9 @@
     "PaginationControlWpWebPartStrings": "lib/webparts/paginationControlWp/loc/{locale}.js",
     "PeoplePickerWpWebPartStrings": "lib/webparts/peoplePickerWp/loc/{locale}.js",
     "PlaceholderWpWebPartStrings": "lib/webparts/placeholderWp/loc/{locale}.js",
-    "ProgressControlWpWebPartStrings": "lib/webparts/progressControlWp/loc/{locale}.js"
+    "ProgressControlWpWebPartStrings": "lib/webparts/progressControlWp/loc/{locale}.js",
+    "ProgressControl2WpWebPartStrings": "lib/webparts/progressControl2Wp/loc/{locale}.js",
+    "ProgressWp3WebPartStrings": "lib/webparts/progressWp3/loc/{locale}.js",
+    "PropertyPaneBasicWebPartStrings": "lib/webparts/propertyPaneBasic/loc/{locale}.js"
   }
 }
