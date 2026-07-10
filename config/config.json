@@ -545,6 +545,22 @@
           "manifest": "./src/webparts/propertyPaneLinkWp/PropertyPaneLinkWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-pane-showcase-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneShowcaseWp/PropertyPaneShowcaseWpWebPart.js",
+          "manifest": "./src/webparts/propertyPaneShowcaseWp/PropertyPaneShowcaseWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-brand-font-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldBrandFontPickerWp/PropertyFieldBrandFontPickerWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldBrandFontPickerWp/PropertyFieldBrandFontPickerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -617,6 +633,9 @@
     "PropertyPaneSliderWpWebPartStrings": "lib/webparts/propertyPaneSliderWp/loc/{locale}.js",
     "PropertyPaneButtonWpWebPartStrings": "lib/webparts/propertyPaneButtonWp/loc/{locale}.js",
     "PropertyPaneLabelWpWebPartStrings": "lib/webparts/propertyPaneLabelWp/loc/{locale}.js",
-    "PropertyPaneLinkWpWebPartStrings": "lib/webparts/propertyPaneLinkWp/loc/{locale}.js"
+    "PropertyPaneLinkWpWebPartStrings": "lib/webparts/propertyPaneLinkWp/loc/{locale}.js",
+    "PropertyPaneShowcaseWpWebPartStrings": "lib/webparts/propertyPaneShowcaseWp/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "PropertyFieldBrandFontPickerWpWebPartStrings": "lib/webparts/propertyFieldBrandFontPickerWp/loc/{locale}.js"
   }
 }
