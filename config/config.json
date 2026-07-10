@@ -505,6 +505,14 @@
           "manifest": "./src/webparts/propertyPaneChoiceGroupWp/PropertyPaneChoiceGroupWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-pane-toggle-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneToggleWp/PropertyPaneToggleWpWebPart.js",
+          "manifest": "./src/webparts/propertyPaneToggleWp/PropertyPaneToggleWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -572,6 +580,7 @@
     "PropertyPaneCheckboxWebPartStrings": "lib/webparts/propertyPaneCheckbox/loc/{locale}.js",
     "PropertyPaneMultilineTextWpWebPartStrings": "lib/webparts/propertyPaneMultilineTextWp/loc/{locale}.js",
     "PropertyPaneDropdownWpWebPartStrings": "lib/webparts/propertyPaneDropdownWp/loc/{locale}.js",
-    "PropertyPaneChoiceGroupWpWebPartStrings": "lib/webparts/propertyPaneChoiceGroupWp/loc/{locale}.js"
+    "PropertyPaneChoiceGroupWpWebPartStrings": "lib/webparts/propertyPaneChoiceGroupWp/loc/{locale}.js",
+    "PropertyPaneToggleWpWebPartStrings": "lib/webparts/propertyPaneToggleWp/loc/{locale}.js"
   }
 }
