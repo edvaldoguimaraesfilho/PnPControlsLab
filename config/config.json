@@ -473,6 +473,38 @@
           "manifest": "./src/webparts/propertyPaneBasic/PropertyPaneBasicWebPart.manifest.json"
         }
       ]
+    },
+    "property-pane-checkbox-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneCheckbox/PropertyPaneCheckboxWebPart.js",
+          "manifest": "./src/webparts/propertyPaneCheckbox/PropertyPaneCheckboxWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-pane-multiline-text-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneMultilineTextWp/PropertyPaneMultilineTextWpWebPart.js",
+          "manifest": "./src/webparts/propertyPaneMultilineTextWp/PropertyPaneMultilineTextWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-pane-dropdown-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneDropdownWp/PropertyPaneDropdownWpWebPart.js",
+          "manifest": "./src/webparts/propertyPaneDropdownWp/PropertyPaneDropdownWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-pane-choice-group-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneChoiceGroupWp/PropertyPaneChoiceGroupWpWebPart.js",
+          "manifest": "./src/webparts/propertyPaneChoiceGroupWp/PropertyPaneChoiceGroupWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -536,6 +568,10 @@
     "ProgressControlWpWebPartStrings": "lib/webparts/progressControlWp/loc/{locale}.js",
     "ProgressControl2WpWebPartStrings": "lib/webparts/progressControl2Wp/loc/{locale}.js",
     "ProgressWp3WebPartStrings": "lib/webparts/progressWp3/loc/{locale}.js",
-    "PropertyPaneBasicWebPartStrings": "lib/webparts/propertyPaneBasic/loc/{locale}.js"
+    "PropertyPaneBasicWebPartStrings": "lib/webparts/propertyPaneBasic/loc/{locale}.js",
+    "PropertyPaneCheckboxWebPartStrings": "lib/webparts/propertyPaneCheckbox/loc/{locale}.js",
+    "PropertyPaneMultilineTextWpWebPartStrings": "lib/webparts/propertyPaneMultilineTextWp/loc/{locale}.js",
+    "PropertyPaneDropdownWpWebPartStrings": "lib/webparts/propertyPaneDropdownWp/loc/{locale}.js",
+    "PropertyPaneChoiceGroupWpWebPartStrings": "lib/webparts/propertyPaneChoiceGroupWp/loc/{locale}.js"
   }
 }
