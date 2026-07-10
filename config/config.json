@@ -521,6 +521,14 @@
           "manifest": "./src/webparts/propertyPaneSliderWp/PropertyPaneSliderWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-pane-button-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneButtonWp/PropertyPaneButtonWpWebPart.js",
+          "manifest": "./src/webparts/propertyPaneButtonWp/PropertyPaneButtonWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -590,6 +598,7 @@
     "PropertyPaneDropdownWpWebPartStrings": "lib/webparts/propertyPaneDropdownWp/loc/{locale}.js",
     "PropertyPaneChoiceGroupWpWebPartStrings": "lib/webparts/propertyPaneChoiceGroupWp/loc/{locale}.js",
     "PropertyPaneToggleWpWebPartStrings": "lib/webparts/propertyPaneToggleWp/loc/{locale}.js",
-    "PropertyPaneSliderWpWebPartStrings": "lib/webparts/propertyPaneSliderWp/loc/{locale}.js"
+    "PropertyPaneSliderWpWebPartStrings": "lib/webparts/propertyPaneSliderWp/loc/{locale}.js",
+    "PropertyPaneButtonWpWebPartStrings": "lib/webparts/propertyPaneButtonWp/loc/{locale}.js"
   }
 }
