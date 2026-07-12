@@ -182,8 +182,8 @@ export default class PropertyFieldBrandFontPickerWpWebPart
                   properties:
                     this.properties,
 
-                  context:
-                    this.context,
+                 
+                   context: this.context as any,
 
                   customFontTokens:
                     customFontTokens,

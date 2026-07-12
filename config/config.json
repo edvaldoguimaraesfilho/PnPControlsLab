@@ -601,6 +601,22 @@
           "manifest": "./src/webparts/propertyFieldColorPickerWp/PropertyFieldColorPickerWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-field-column-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldColumnPickerWp/PropertyFieldColumnPickerWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldColumnPickerWp/PropertyFieldColumnPickerWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-date-time-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldDateTimePickerWp/PropertyFieldDateTimePickerWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldDateTimePickerWp/PropertyFieldDateTimePickerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -681,6 +697,8 @@
     "PropertyFieldCodeEditorWpWebPartStrings": "lib/webparts/propertyFieldCodeEditorWp/loc/{locale}.js",
     "PropertyFieldCollectionDataWpWebPartStrings": "lib/webparts/propertyFieldCollectionDataWp/loc/{locale}.js",
     "CopiloTTesteCopilotComponentStrings": "lib/copilotComponents/copiloTTeste/loc/{locale}.js",
-    "PropertyFieldColorPickerWpWebPartStrings": "lib/webparts/propertyFieldColorPickerWp/loc/{locale}.js"
+    "PropertyFieldColorPickerWpWebPartStrings": "lib/webparts/propertyFieldColorPickerWp/loc/{locale}.js",
+    "PropertyFieldColumnPickerWpWebPartStrings": "lib/webparts/propertyFieldColumnPickerWp/loc/{locale}.js",
+    "PropertyFieldDateTimePickerWpWebPartStrings": "lib/webparts/propertyFieldDateTimePickerWp/loc/{locale}.js"
   }
 }
