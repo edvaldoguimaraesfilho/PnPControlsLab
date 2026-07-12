@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-component-manifest.schema.json",
+  "id": "6b2d7276-6700-4782-aa2f-e46b0d4f4c48",
+  "alias": "CopiloTTesteCopilotComponent",
+  "componentType": "CopilotComponent",
+  "copilotType": "Ux",
+  "version": "*",
+  "manifestVersion": 2,
+
+  "capabilities": {
+    "availableDisplayModes": ["inline", "fullscreen"]
+  },
+
+  "tools": [
+    {
+      "name": "CopiloTTesteTool",
+      "description": {
+        "default": "CopiloTTeste description"
+      },
+      "propertiesSchema": {
+        "id": "$../../../lib/copilotComponents/copiloTTeste/CopiloTTesteCopilotComponentProperties.js:default;"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/copilot/plugin/v2.4/schema.json",
+  "schema_version": "v2.4",
+  "namespace": "copiloTTeste",
+  "name_for_human": "CopiloTTeste Agent",
+  "description_for_human": "CopiloTTeste description",
+  "description_for_model": "CopiloTTeste description",
+  "contact_email": "publisher@contoso.com"
+}

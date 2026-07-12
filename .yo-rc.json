@@ -1,7 +1,7 @@
 {
   "@microsoft/generator-sharepoint": {
     "useGulp": false,
-    "plusBeta": false,
+    "plusBeta": true,
     "isCreatingSolution": false,
     "nodeVersion": "22.22.3",
     "sdksVersions": {},
@@ -14,6 +14,6 @@
     "solutionShortDescription": "PnPControlsLab description",
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
-    "componentType": "webpart"
+    "componentType": "copilotComponent"
   }
 }

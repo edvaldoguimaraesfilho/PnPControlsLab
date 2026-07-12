@@ -561,6 +561,38 @@
           "manifest": "./src/webparts/propertyFieldBrandFontPickerWp/PropertyFieldBrandFontPickerWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-field-button-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldButtonWp/PropertyFieldButtonWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldButtonWp/PropertyFieldButtonWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-code-editor-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldCodeEditorWp/PropertyFieldCodeEditorWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldCodeEditorWp/PropertyFieldCodeEditorWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-collection-data-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldCollectionDataWp/PropertyFieldCollectionDataWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldCollectionDataWp/PropertyFieldCollectionDataWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "copilo-t-teste-copilot-component": {
+      "components": [
+        {
+          "entrypoint": "./lib/copilotComponents/copiloTTeste/CopiloTTesteCopilotComponent.js",
+          "manifest": "./src/copilotComponents/copiloTTeste/CopiloTTesteCopilotComponent.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -636,6 +668,10 @@
     "PropertyPaneLinkWpWebPartStrings": "lib/webparts/propertyPaneLinkWp/loc/{locale}.js",
     "PropertyPaneShowcaseWpWebPartStrings": "lib/webparts/propertyPaneShowcaseWp/loc/{locale}.js",
     "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
-    "PropertyFieldBrandFontPickerWpWebPartStrings": "lib/webparts/propertyFieldBrandFontPickerWp/loc/{locale}.js"
+    "PropertyFieldBrandFontPickerWpWebPartStrings": "lib/webparts/propertyFieldBrandFontPickerWp/loc/{locale}.js",
+    "PropertyFieldButtonWpWebPartStrings": "lib/webparts/propertyFieldButtonWp/loc/{locale}.js",
+    "PropertyFieldCodeEditorWpWebPartStrings": "lib/webparts/propertyFieldCodeEditorWp/loc/{locale}.js",
+    "PropertyFieldCollectionDataWpWebPartStrings": "lib/webparts/propertyFieldCollectionDataWp/loc/{locale}.js",
+    "CopiloTTesteCopilotComponentStrings": "lib/copilotComponents/copiloTTeste/loc/{locale}.js"
   }
 }

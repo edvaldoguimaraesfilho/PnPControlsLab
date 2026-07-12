@@ -1,0 +1,16 @@
+{
+  "$schema": "../node_modules/@microsoft/spfx-heft-plugins/lib-commonjs/plugins/copilotAgentPlugin/copilot-agent.schema.json",
+  "agents": [
+    {
+      "name": {
+        "default": "CopiloTTeste Agent"
+      },
+      "description": {
+        "default": "CopiloTTeste description"
+      },
+      "components": [
+        "6b2d7276-6700-4782-aa2f-e46b0d4f4c48"
+      ]
+    }
+  ]
+}
