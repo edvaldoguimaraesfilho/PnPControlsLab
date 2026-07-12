@@ -593,6 +593,14 @@
           "manifest": "./src/copilotComponents/copiloTTeste/CopiloTTesteCopilotComponent.manifest.json"
         }
       ]
+    },
+    "property-field-color-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldColorPickerWp/PropertyFieldColorPickerWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldColorPickerWp/PropertyFieldColorPickerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -672,6 +680,7 @@
     "PropertyFieldButtonWpWebPartStrings": "lib/webparts/propertyFieldButtonWp/loc/{locale}.js",
     "PropertyFieldCodeEditorWpWebPartStrings": "lib/webparts/propertyFieldCodeEditorWp/loc/{locale}.js",
     "PropertyFieldCollectionDataWpWebPartStrings": "lib/webparts/propertyFieldCollectionDataWp/loc/{locale}.js",
-    "CopiloTTesteCopilotComponentStrings": "lib/copilotComponents/copiloTTeste/loc/{locale}.js"
+    "CopiloTTesteCopilotComponentStrings": "lib/copilotComponents/copiloTTeste/loc/{locale}.js",
+    "PropertyFieldColorPickerWpWebPartStrings": "lib/webparts/propertyFieldColorPickerWp/loc/{locale}.js"
   }
 }
