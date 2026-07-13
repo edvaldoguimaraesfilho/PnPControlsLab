@@ -649,6 +649,14 @@
           "manifest": "./src/webparts/propertyFieldFolderPickerWp/PropertyFieldFolderPickerWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-field-grid-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldGridWp/PropertyFieldGridWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldGridWp/PropertyFieldGridWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -735,6 +743,7 @@
     "PropertyFieldEnterpriseTermPickerWebPartStrings": "lib/webparts/propertyFieldEnterpriseTermPicker/loc/{locale}.js",
     "PropertyFieldEnterpriseTermPickerWpWebPartStrings": "lib/webparts/propertyFieldEnterpriseTermPickerWp/loc/{locale}.js",
     "PropertyFieldFilePickerWpWebPartStrings": "lib/webparts/propertyFieldFilePickerWp/loc/{locale}.js",
-    "PropertyFieldFolderPickerWpWebPartStrings": "lib/webparts/propertyFieldFolderPickerWp/loc/{locale}.js"
+    "PropertyFieldFolderPickerWpWebPartStrings": "lib/webparts/propertyFieldFolderPickerWp/loc/{locale}.js",
+    "PropertyFieldGridWpWebPartStrings": "lib/webparts/propertyFieldGridWp/loc/{locale}.js"
   }
 }
