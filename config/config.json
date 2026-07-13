@@ -657,6 +657,46 @@
           "manifest": "./src/webparts/propertyFieldGridWp/PropertyFieldGridWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-field-guid-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldGuidWp/PropertyFieldGuidWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldGuidWp/PropertyFieldGuidWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "icon-picker-wp-pn-p-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/iconPickerWpPnP/IconPickerWpPnPWebPart.js",
+          "manifest": "./src/webparts/iconPickerWpPnP/IconPickerWpPnPWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-icon-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldIconPickerWp/PropertyFieldIconPickerWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldIconPickerWp/PropertyFieldIconPickerWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-list-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldListPickerWp/PropertyFieldListPickerWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldListPickerWp/PropertyFieldListPickerWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-message-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldMessageWp/PropertyFieldMessageWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldMessageWp/PropertyFieldMessageWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -744,6 +784,11 @@
     "PropertyFieldEnterpriseTermPickerWpWebPartStrings": "lib/webparts/propertyFieldEnterpriseTermPickerWp/loc/{locale}.js",
     "PropertyFieldFilePickerWpWebPartStrings": "lib/webparts/propertyFieldFilePickerWp/loc/{locale}.js",
     "PropertyFieldFolderPickerWpWebPartStrings": "lib/webparts/propertyFieldFolderPickerWp/loc/{locale}.js",
-    "PropertyFieldGridWpWebPartStrings": "lib/webparts/propertyFieldGridWp/loc/{locale}.js"
+    "PropertyFieldGridWpWebPartStrings": "lib/webparts/propertyFieldGridWp/loc/{locale}.js",
+    "PropertyFieldGuidWpWebPartStrings": "lib/webparts/propertyFieldGuidWp/loc/{locale}.js",
+    "IconPickerWpPnPWebPartStrings": "lib/webparts/iconPickerWpPnP/loc/{locale}.js",
+    "PropertyFieldIconPickerWpWebPartStrings": "lib/webparts/propertyFieldIconPickerWp/loc/{locale}.js",
+    "PropertyFieldListPickerWpWebPartStrings": "lib/webparts/propertyFieldListPickerWp/loc/{locale}.js",
+    "PropertyFieldMessageWpWebPartStrings": "lib/webparts/propertyFieldMessageWp/loc/{locale}.js"
   }
 }
