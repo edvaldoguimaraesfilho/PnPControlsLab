@@ -641,6 +641,14 @@
           "manifest": "./src/webparts/propertyFieldFilePickerWp/PropertyFieldFilePickerWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-field-folder-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldFolderPickerWp/PropertyFieldFolderPickerWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldFolderPickerWp/PropertyFieldFolderPickerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -726,6 +734,7 @@
     "PropertyFieldDateTimePickerWpWebPartStrings": "lib/webparts/propertyFieldDateTimePickerWp/loc/{locale}.js",
     "PropertyFieldEnterpriseTermPickerWebPartStrings": "lib/webparts/propertyFieldEnterpriseTermPicker/loc/{locale}.js",
     "PropertyFieldEnterpriseTermPickerWpWebPartStrings": "lib/webparts/propertyFieldEnterpriseTermPickerWp/loc/{locale}.js",
-    "PropertyFieldFilePickerWpWebPartStrings": "lib/webparts/propertyFieldFilePickerWp/loc/{locale}.js"
+    "PropertyFieldFilePickerWpWebPartStrings": "lib/webparts/propertyFieldFilePickerWp/loc/{locale}.js",
+    "PropertyFieldFolderPickerWpWebPartStrings": "lib/webparts/propertyFieldFolderPickerWp/loc/{locale}.js"
   }
 }
