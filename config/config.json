@@ -729,6 +729,30 @@
           "manifest": "./src/webparts/propertyFieldOrderWp/PropertyFieldOrderWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-field-password-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldPasswordWp/PropertyFieldPasswordWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldPasswordWp/PropertyFieldPasswordWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-people-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldPeoplePickerWp/PropertyFieldPeoplePickerWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldPeoplePickerWp/PropertyFieldPeoplePickerWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-role-definition-picker-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldRoleDefinitionPickerWp/PropertyFieldRoleDefinitionPickerWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldRoleDefinitionPickerWp/PropertyFieldRoleDefinitionPickerWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -825,6 +849,9 @@
     "PropertyFieldMonacoEditorWpWebPartStrings": "lib/webparts/propertyFieldMonacoEditorWp/loc/{locale}.js",
     "PropertyFieldMultiSelectWpWebPartStrings": "lib/webparts/propertyFieldMultiSelectWp/loc/{locale}.js",
     "PropertyFieldNumberWpWebPartStrings": "lib/webparts/propertyFieldNumberWp/loc/{locale}.js",
-    "PropertyFieldOrderWpWebPartStrings": "lib/webparts/propertyFieldOrderWp/loc/{locale}.js"
+    "PropertyFieldOrderWpWebPartStrings": "lib/webparts/propertyFieldOrderWp/loc/{locale}.js",
+    "PropertyFieldPasswordWpWebPartStrings": "lib/webparts/propertyFieldPasswordWp/loc/{locale}.js",
+    "PropertyFieldPeoplePickerWpWebPartStrings": "lib/webparts/propertyFieldPeoplePickerWp/loc/{locale}.js",
+    "PropertyFieldRoleDefinitionPickerWpWebPartStrings": "lib/webparts/propertyFieldRoleDefinitionPickerWp/loc/{locale}.js"
   }
 }
