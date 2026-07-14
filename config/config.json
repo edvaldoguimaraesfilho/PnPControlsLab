@@ -713,6 +713,22 @@
           "manifest": "./src/webparts/propertyFieldMultiSelectWp/PropertyFieldMultiSelectWpWebPart.manifest.json"
         }
       ]
+    },
+    "property-field-number-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldNumberWp/PropertyFieldNumberWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldNumberWp/PropertyFieldNumberWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "property-field-order-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyFieldOrderWp/PropertyFieldOrderWpWebPart.js",
+          "manifest": "./src/webparts/propertyFieldOrderWp/PropertyFieldOrderWpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -807,6 +823,8 @@
     "PropertyFieldListPickerWpWebPartStrings": "lib/webparts/propertyFieldListPickerWp/loc/{locale}.js",
     "PropertyFieldMessageWpWebPartStrings": "lib/webparts/propertyFieldMessageWp/loc/{locale}.js",
     "PropertyFieldMonacoEditorWpWebPartStrings": "lib/webparts/propertyFieldMonacoEditorWp/loc/{locale}.js",
-    "PropertyFieldMultiSelectWpWebPartStrings": "lib/webparts/propertyFieldMultiSelectWp/loc/{locale}.js"
+    "PropertyFieldMultiSelectWpWebPartStrings": "lib/webparts/propertyFieldMultiSelectWp/loc/{locale}.js",
+    "PropertyFieldNumberWpWebPartStrings": "lib/webparts/propertyFieldNumberWp/loc/{locale}.js",
+    "PropertyFieldOrderWpWebPartStrings": "lib/webparts/propertyFieldOrderWp/loc/{locale}.js"
   }
 }
